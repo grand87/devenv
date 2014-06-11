@@ -1,0 +1,12 @@
+[user]
+	name = Volodymyr Sharayenko
+	email = v.sharayenko@samsung.com
+[core]
+	editor = "c:/Progra~2/Notepad++/notepad++.exe" -multiInst -nosession -noPlugin "$(cygpath -w "$*")"
+	autocrlf = true
+[color]
+	ui = true
+[push]
+	default = tracking
+[commit]
+     template = ~/.git.commit.template
